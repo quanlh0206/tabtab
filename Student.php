@@ -1,5 +1,5 @@
 <?php
-require_once "People.php";
+include_once "People.php";
 
 class Student extends People {
     public function showInfo() {
